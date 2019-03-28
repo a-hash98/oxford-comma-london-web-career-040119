@@ -5,8 +5,7 @@ def oxford_comma(array)
   array.push("and")
   array[array.length-1],array[array.length-2] = array[array.length-2],array[array.length-1]
   a = array.join(", ")
-  a.reverse.sub(',','').reverse
-  return a
+  return a.reverse.sub(',','').reverse
 end
 
 #oxford_comma(["a","b"])
