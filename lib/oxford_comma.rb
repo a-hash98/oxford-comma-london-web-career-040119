@@ -4,7 +4,7 @@ def oxford_comma(array)
   end
   array.push("and")
   array[array.length-1],array[array.length-2] = array[array.length-2],array[array.length-1]
-  a = array.join(", ").sub!(', and',' and')
+  a = array.join(", ")
   return a
 end
 
