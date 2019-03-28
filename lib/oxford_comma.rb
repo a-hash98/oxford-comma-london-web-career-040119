@@ -10,6 +10,7 @@ def oxford_comma(array)
     return a.reverse.sub(',','').reverse
   else
     return a.sub(',','')
+  end
 end
 
 #oxford_comma(["a","b"])
