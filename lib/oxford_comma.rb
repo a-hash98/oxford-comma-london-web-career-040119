@@ -9,7 +9,7 @@ def oxford_comma(array)
   if len >= 3
     return a.reverse.sub(',','').reverse
   else
-    return a.sub(',','')
+    return a.sub!(',','')
   end
 end
 
